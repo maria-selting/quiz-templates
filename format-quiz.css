@@ -7,6 +7,14 @@ body {
 	max-width: 600px;
 	margin: 0 auto;
 }
+
+li {
+	color: #354947;
+	font: 12pt/1.4 "Helvetica Neue", "Helvetica", serif;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
 .headings {
 	color: #354947;
 }
@@ -15,7 +23,14 @@ p {
 	border-bottom: 1px solid #54947;
 	padding-bottom: 5px;
 }
-form {
-	
 
-}
+input[type=radio] {
+	font: 12pt/1.4 "Helvetica Neue", "Helvetica", serif;
+	color: #354947;
+
+} 
+
+input[type=submit] {padding:5px 15px; background:#fff; border: 1 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; } 
