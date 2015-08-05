@@ -8,8 +8,7 @@ img {
 body {
 	background: #bafffa;
 	font: 12pt/1.4 "Helvetica Neue", "Helvetica", serif;
-	max-width: 600px;
-	margin: 0 auto;
+
 }
 
 li {
@@ -21,18 +20,23 @@ li {
 
 .headings {
 	color: #354947;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 h1 {
 	font: 42pt/1.4 "Helvetica Neue", "Helvetica", serif;
 	color: #354947; 
 	margin: 0 auto;
+	width: 600px;
 }
 
 p {  
 	color: #354947;
 	border-bottom: 1px solid #54947;
 	padding-bottom: 5px;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 input[type=radio] {
